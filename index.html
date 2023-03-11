@@ -1,30 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <link href="styles/style.css" rel="stylesheet" />
-    <title>My test page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <!-- (source) https://getbootstrap.com/docs/5.3/getting-started/introduction/ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
+    <title>My Homepage</title>
   </head>
-  
+  <style>
+    table, th, td {
+      border: 1px solid;
+    }
+    a {
+      color: orange;
+    }
+  </style>
   <body>
-    <h1>Mozilla is cool</h1>
-    <img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
+    <div class="p-3 mb-2 bg-dark bg-gradient text-white">
+      <table class="table table-dark table-striped>
+        <tr>
+          <th style="width: 14%;"></th><th style="width: 14%;"></th><th style="width: 14%;"><th style="width: 14%;"></th>
+          <th style="width: 14%;"></th><th style="width: 15%;"></th><th style="width: 15%;"></th><th style="width: 15%;"></th>
+        <tr>
+          <td>mail | drive</td>
+          <td><a href="https://mail.google.com/mail/u/0/#inbox">mail</a></td>
+          <td><a href="https://mail.google.com/mail/u/8/#inbox">mail:cpacoding</a></td>
+          <td><a href="https://drive.google.com/drive/u/0/my-drive">drive</a></td>
+          <td><a href="https://drive.google.com/drive/u/8/my-drive">drive:cpacoding</a></td>
+          <td><a href=""></a></td>
+          <td><a href="https://docs.google.com/spreadsheets/d/1Wxed2p_Inr6oYHP0s9yTGYOxBoNm0DNsKoEJIotXD4s/edit#gid=1125859841">myinfo</a></td>
+        </tr>
+        <tr>
+          <td>google</td>
+          <td><a href="https://www.google.com/maps/@40.7527716,-73.7595529,15z">maps</a></td>
+          <td><a href="https://sites.google.com/new">sites</a></td>
+          <td><a href="https://photos.google.com/albums">photos</a></td>
+          <td><a href="https://translate.google.com/">translate</a></td>
+          <td><a href=""></a></td><td><a href=""></a></td>
+        </tr>
+        <tr>
+          <td>sns | dict</td>
+          <td><a href="https://www.facebook.com/">facebook</a></td>
+          <td><a href="https://www.youtube.com/">youtube</a></td>
+          <td><a href="https://www.instagram.com/artist/">insta-artist</a></td>
+          <td><a href="https://www.instagram.com/ssam_english/">insta-ssam-eng</a></td>
+          <td><a href="https://snapinsta.app/">SnapInsta</a></td>
+          <td><a href="https://en.dict.naver.com/#/main">dict</a></td>
+        </tr>
+        <tr>
+          <td>bank | cc</td>
+          <td><a href="https://www.chase.com/">chase</a></td>
+          <td><a href="https://dashboard.missionlane.com/signin?_ga=2.183996462.969077269.1657595479-658579022.1583371556">mission-lane</a></td>
+          <td><a href="https://www.paypal.com/us/signin">paypal</a></td>
+          <td><a href="https://www.wooriamericabank.com/">woori</a></td>
+          <td><a href=""></a></td>
+          <td><a href="https://www.amazon.com/">amazon</a></td>
+        </tr>
+        <tr>
+          <td>my docs</td>
+          <td><a href="https://docs.google.com/spreadsheets/d/1wJaY-6B19e8yKg1MGMxD4_KrhzQ5TYSlYVvhjrT5GT8/edit#gid=891834841">tracker</a></td>
+          <td><a href="https://docs.google.com/spreadsheets/d/1Yht9usCOiqQgSXcVC3RGWou9e6B-LM1a-LQA5Git8qI/edit?usp=share_link">todo</a></td>
+          <td><a href="https://docs.google.com/spreadsheets/d/16bUo-DBY7m7F3yFnBE1hWeLQgGA_A7qukH2VgXbNxuE/edit#gid=0">colors</a></td>
+          <td><a href=""></a></td><td><a href=""></a></td>
+          <td><a href="https://www.evernote.com/Home.action?login=true#n=60804787-23b0-4e18-9b7c-8c6d5d6916a9&s=s484&ses=4&sh=2&sds=5&">evernote</a></td>
+        </tr>
+        <tr>
+          <td>government</td>
+          <td><a href="https://www.Grants.gov/">Grants.gov</a></td>
+          <td><a href="https://www.benefits.gov/">Benefits.gov</a></td>
+          <td><a href="https://www.usa.gov/">USA.gov</a></td>
+          <td><a href="https://www.usa.gov/finding-home">Find Affordable Rental Housing</a></td>
+          <td><a href="https://www.usa.gov/mental-health-substance-abuse#item-35207">Mental Health and Substance Abuse</a></td>
+          <td><a href=""></a></td>
+        </tr>
+        <tr>
+          <td>my homepage (local)</td>
+          <td><a href="file:///Users/ykim/Downloads/_My%20Homepage/my%20homepage.html">my homepage | home</a></td>
+          <td><a href="file:///Users/ykim/Downloads/_My%20Homepage/sites-&-tools.html">my homepage | sites & tool</a></td>
+          <td><a href="file:///Users/ykim/Downloads/_My%20Homepage/ssam-english.html">my homepage | ssam-english</a></td>
+          <td><a href=""></a></td>
+          <td><a href=""></a></td>
+          <td><a href="file:///Users/ykim/Downloads/web-projects/test-site/index.html">my test-site (local)</a></td>
+          </tr>
+        <tr>
+          <td>GitHub</td>
+          <td><a href=""></a></td><td><a href=""></a></td><td><a href=""></a></td>
+          <td><a href="https://ykim0217.github.io/">my test-site | GitHub</a></td>
+          <td><a href="https://github.com/">GitHub</a></td>
+          <td><a href="https://github.com/Ykim0217/ykim0217.github.io/settings/pages">GitHub Pages</a></td>
+        </tr>
+        <tr>
+          <td><a href=""></a></td><td><a href=""></a></td><td><a href=""></a></td><td><a href=""></a></td>
+          <td><a href=""></a></td><td><a href=""></a></td><td><a href=""></a></td>
+        </tr>
+      </table>
+    </div>
 
-    <p>At Mozilla, we’re a global community of</p>
-
-    <ul> <!-- changed to list in the tutorial -->
-      <li>technologists</li>
-      <li>thinkers</li>
-      <li>builders</li>
-    </ul>
-
-    <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. 
-      We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
-
-    <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> 
-      to learn even more about the values and principles that guide the pursuit of our mission.</p>
-  
-    <button>Change user</button>
-    <script src="scripts/main.js"></script> 
-    </body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- (source) https://getbootstrap.com/docs/5.3/getting-started/introduction/ -->  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </body>
 </html>
